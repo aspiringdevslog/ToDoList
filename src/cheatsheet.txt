@@ -1,0 +1,61 @@
+# This cheat sheet consist of all the codes that I have searched for while replicating the ToDoList
+
+
+"style css reference" > https://www.w3schools.com/css/css_howto.asp
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+"html fixed navbar top" > https://www.w3schools.com/howto/howto_css_fixed_menu.asp
+https://www.w3schools.com/howto/howto_css_fixed_menu.asp
+
+html:
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+</div>
+
+css:
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+"set image as background css" > https://www.w3schools.com/css/css_background.asp
+
+body {
+    background-image: url("paper.gif");
+}
+
+"background size" > https://www.w3schools.com/cssref/css3_pr_background-size.asp
+
+"css image background position" > https://stackoverflow.com/questions/13924626/css-background-size-cover-and-background-position
+
+
+background-position: 0% -10%;
+
+background-position: bottom;
+
+
+
+
